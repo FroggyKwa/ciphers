@@ -1,4 +1,4 @@
-#  Cezar's cipher
+#  Ciphers's cipher
 
 
 def rotate(string, n):
