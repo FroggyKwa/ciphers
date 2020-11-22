@@ -6,9 +6,9 @@ def rotate(string, n):
     for elm in string:
         if elm.isalpha():
             if elm.islower() and ord(elm) + n > 122:
-                result += chr((ord(elm) + n) % 122 + 97)
+                result += chr((ord(elm) + n) % 122 + 96)
             elif elm.isupper() and ord(elm) + n > 90:
-                result += chr((ord(elm) + n) % 90 + 65)
+                result += chr((ord(elm) + n) % 90 + 64)
             else:
                 result += chr(ord(elm) + n)
         else:
